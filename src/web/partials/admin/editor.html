@@ -33,7 +33,7 @@
         Lien du document : <a href="{{! model_editor.info.file_url }}" style="text-decoration: underline">{{! model_editor.info.file_url }}</a>
         <div ng-show="!model_editor.info.user_has_writer_perm && model_editor.info.has_access_perm">
           Vous n'avez pas les permissions d'écriture.
-          <a ng-click="send_writingpermission()" class="btn btn-lg btn-danger" role="button">
+          <a ng-click="send_writing_permission()" class="btn btn-lg btn-danger" role="button">
             <span class="fa fa-spinner fa-spin" ng-show="model_editor.is_sharing_doc"></span> Recevoir les permissions d'écriture par courriel.
           </a>
         </div>
